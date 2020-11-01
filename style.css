@@ -48,3 +48,32 @@ nav{
   color: antiquewhite;
   opacity: 0.4;
 }
+
+.intro {
+  background: #05547B;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  background: #429bc7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: antiquewhite;
+  /* opacity: 0.4; */
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
