@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main {
+  font-family: 'Heebo', sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./recreate.jpeg");
+  background-size: cover;
+  padding: 0rem 1rem;
+}
+
+nav{
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+}
+
+#logo {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
+  color: antiquewhite;
+  opacity: 0.4;
+}
