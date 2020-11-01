@@ -20,6 +20,7 @@ nav{
   justify-items: center;
   justify-content: space-between;
   min-height: 10vh;
+  padding-top: 0.5rem;
 }
 
 .nav-links {
@@ -29,6 +30,7 @@ nav{
 
 .nav-links li {
   padding-left: 10rem;
+  padding-right: 2;
   font-size: 1.2rem;
 }
 
@@ -75,5 +77,15 @@ nav{
   color: antiquewhite;
   /* opacity: 0.4; */
   font-family: "Heebo", sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
+}
+
+.hide {
+  background: #05547B;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
 }
